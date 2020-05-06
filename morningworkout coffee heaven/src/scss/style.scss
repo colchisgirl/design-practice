@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    
+    background: url('/img/coffee-photo.jpg') center;
+    height: 100vh;
+
+    
+}
+
+main {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 32%;
+    height: 100vh;
+    background-color: rgba($color: #6f4e37, $alpha: .6);
+    color: white;
+    padding: 2em;
+    text-align: center;
+    font-family: 'Cantarell', sans-serif;
+
+    h1 {
+        font-size: 70px;
+        font-family: 'Viga', sans-serif;
+        margin-bottom: 1em
+    }
+
+    p {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        width: 70%;
+        margin: 0 auto;
+
+    }
+
+    button {
+        color: white;
+        font-size: 2em;
+        background: #990F02;
+        padding: 1.5em;
+        border: 2px solid white;
+        border-radius: 6px;
+        margin-top: 1.5em;
+    }
+
+}
+
