@@ -1,0 +1,82 @@
+.about {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: $lightgrey;
+    text-align: center;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        text-align: center;
+        font-size: 4em;
+        color: $darkgrey;
+        padding: 1.5em 0 1em 0;
+    }
+
+    .about_inner {
+        max-width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1em;
+
+        .profilepic {
+            max-width: 20em;
+            max-height: 20em;
+            border-radius: 50%;
+            margin: 2em 3em;
+        }
+
+        .story {
+            text-align: justify;
+            margin: 0 2em;
+            display: flex;
+            flex-direction: column;
+            p {
+                margin: .5em 1em;
+            }
+
+            button {
+                display: inline-block;
+                width: 40%;
+                background: $green;
+                border-radius: 4px;
+                border: none; 
+                padding: 1em 4em;
+                margin-left: 1em;
+                margin-top: 2em;
+                box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+                transition: 0.3s;
+                color: white;
+                font-size: 1.1em;
+
+                &:hover {
+                    background: #439873;
+                    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.9);
+                    
+                }
+
+                &:focus {
+                    outline:none;
+                }
+             }
+        }
+    }
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    border-bottom: .5em solid $green;
+}
+
+p:last-child {
+    font-size: 1.2em;
+    margin-left: .5;
+    margin-bottom: 1em;
+} 
+
