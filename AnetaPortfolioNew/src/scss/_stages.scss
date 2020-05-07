@@ -1,0 +1,44 @@
+
+.blackbackground {
+    background-color: #303336;
+    overflow: hidden;
+}
+
+.stages {
+    display: flex;
+    justify-content: space-around;
+    max-width: 75%;
+    margin: 0 auto;
+    color: white;
+    padding: 3em 3em 3em 3em;
+}
+
+.one, .two, .three, .four {
+    flex-direction: row;
+    max-width: 10%;
+    text-align: center;
+}
+
+.stages h3 {
+    color: #6dba7b;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.shapes {
+    position: relative;
+    top: -50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 15em;
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}

@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+    top: 0;
+    overflow: hidden;
+    z-index: 34;
+}
+
+.dropdown {
+    display: hidden;
+}
+
+header a {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #262626;
+    height: 100%;
+    padding: .9em 0;
+}
+
+header a:hover {
+    background-color: gray;
+    color: black;
+}
+
+header img {
+    height: 3em;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    padding: 0;
+    text-align: center;
+    background: white;
+    border-bottom: 1px solid black;
+}
+
+.logo:hover {
+    background: white;
+}
+
+

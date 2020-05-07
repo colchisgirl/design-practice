@@ -1,0 +1,35 @@
+.intro {
+    background: url('/img/fern.jpg');
+    background-position: center;
+    position: static;
+    height: 80vh;
+    margin: 100px 0;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 8em 0;
+    line-height: 4em;
+}
+
+.intro h1 {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.intro a {
+    text-decoration: none;
+    color: lemonchiffon;
+}
+
+.intro a:hover {
+    text-decoration: underline;
+}
+
+.first {
+    text-align: center;
+    max-width: 53%;
+    margin: 0 auto;
+    padding: 0 0 2.5em 0;
+    font-size: 30px;
+}
